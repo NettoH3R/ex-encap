@@ -33,7 +33,7 @@ public class ContaBancaria{
         if(this.saldo > valor){
             return this.saldo =  this.saldo - valor;
         }else{
-            System.out.println("Valor do saque é maior que o saldo!!")
+            System.out.println("Valor do saque é maior que o saldo!!" + "\n");
             return this.saldo;
         }
     }
@@ -42,7 +42,7 @@ public class ContaBancaria{
         if( 0 < valor){
             return this.saldo =  this.saldo + valor;
         }else{
-            System.out.println("Não é possivel depositar o valor negativo!!")
+            System.out.println("Não é possivel depositar o valor negativo!!" + "\n");
             return this.saldo;
         }
     }
